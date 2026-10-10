@@ -42,8 +42,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=junayedtiy437-cmd&show_icons=true" alt="Junaed's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=junayedtiy437-cmd&layout=compact" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=junayedtiy4378&show_icons=true" alt="Junaed's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=junayedtiy4378&layout=compact" alt="Top languages" />
 </p>
 
 ## 🤝 Connect
