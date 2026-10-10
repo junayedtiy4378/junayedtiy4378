@@ -13,15 +13,24 @@
 - 🌱 Also exploring **security, human–computer interaction (HCI), and blockchain**
 - 🔎 Currently open to **AI/ML jobs, internships & research opportunities**
 - 📫 Reach me at **junayedtiy437@gmail.com**
-## 🌐 Socials
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/junayed-ahmed-ab365026b)
+<h2>🌐 Socials</h2>
 
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/junaed.ahmed.9615)
+<p align="left">
+  <a href="https://www.linkedin.com/in/junayed-ahmed-ab365026b">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.facebook.com/junaed.ahmed.9615">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook"/>
+  </a>
+  <a href="mailto:junayedtiy437@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://junaed-ahmed.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:junayedtiy437@gmail.com)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://junaed-ahmed.vercel.app)
 ## 🛠️ Tech Stack
 
 **Languages**
