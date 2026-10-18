@@ -13,7 +13,7 @@
 - 🌱 Also exploring **security, human–computer interaction (HCI), and blockchain**
 - 🔎 Currently open to **AI/ML jobs, internships & research opportunities**
 - 📫 Reach me at **junayedtiy437@gmail.com**
--[Explore my public projects](PUBLIC-PROJECTS.md)
+- [Explore my public projects](PUBLIC-PROJECTS.md)
 
 <h2>🌐 Socials</h2>
 
