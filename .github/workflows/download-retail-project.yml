@@ -12,6 +12,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
+
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -25,17 +26,25 @@ jobs:
           import lzma
           from pathlib import Path, PurePosixPath
 
-          parts = [Path(f".github/retail-transfer/part-{i:02}.txt") for i in range(1, 5)]
-          if any(not part.is_file() for part in parts):
-              raise RuntimeError("Add all four part files under .github/retail-transfer first.")
-          encoded = "".join(part.read_text().strip() for part in parts)
-          data = base64.b64decode(encoded, validate=True)
-          if hashlib.sha256(data).hexdigest() != "306fbd88275858d032554216f485f048c37d1d7b8982b22d760242062e4d6e68":
-              raise RuntimeError("A part file is incomplete or changed. Copy all four files again.")
+          pieces = []
+          for i in range(1, 5):
+              matches = list(Path(".github").rglob(f"part-{i:02}.txt"))
+              versions = {part.read_text().strip() for part in matches}
+              if len(versions) != 1:
+                  raise RuntimeError(f"Part {i:02} is missing or has conflicting copies.")
+              pieces.append(versions.pop())
+
+          data = base64.b64decode("".join(pieces), validate=True)
+          expected = "306fbd88275858d032554216f485f048c37d1d7b8982b22d760242062e4d6e68"
+          if hashlib.sha256(data).hexdigest() != expected:
+              raise RuntimeError("A data part is incomplete or changed.")
+
           for name, text in json.loads(lzma.decompress(data)).items():
               path = PurePosixPath(name)
-              if path.is_absolute() or ".." in path.parts or not name.startswith("retail-sales-analytics/"):
+              if path.is_absolute() or ".." in path.parts:
                   raise RuntimeError("Unexpected project path.")
+              if not name.startswith("retail-sales-analytics/"):
+                  raise RuntimeError("Unexpected project folder.")
               target = Path(name)
               target.parent.mkdir(parents=True, exist_ok=True)
               target.write_text(text, encoding="utf-8")
@@ -45,17 +54,11 @@ jobs:
         working-directory: retail-sales-analytics
         run: python -m pip install -r requirements.txt
 
-      - name: Generate the sample data
-        working-directory: retail-sales-analytics
-        run: python scripts/generate_demo_data.py
-
-      - name: Test the project
-        working-directory: retail-sales-analytics
-        run: python -m unittest discover -s tests -v
-
-      - name: Generate reports and the README chart
+      - name: Build and test the project
         working-directory: retail-sales-analytics
         run: |
+          python scripts/generate_demo_data.py
+          python -m unittest discover -s tests -v
           python analyze.py
           python -c "import shutil; shutil.copyfile('reports/charts/monthly_sales.png', 'docs/monthly-sales.png')"
 
