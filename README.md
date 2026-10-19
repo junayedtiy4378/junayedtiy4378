@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Junaed Ahmed
 
-**Aspiring LLM Researcher · Agentic AI · Data Analytics**
+**Aspiring LLM Researcher · Agentic AI Expert**
 
 - 🔬 Exploring language models, AI agents, and reliable intelligent systems.
 - 🤝 Open to **agentic AI roles, AI/ML internships, freelance projects, and research collaboration**.
@@ -8,9 +8,9 @@
 
 ## 🧑‍💻 About Me
 
-I'm **Junaed Ahmed**, a **Computer Science and Engineering student at BRAC University**, expecting to graduate in **April 2027**. My long-term goal is to become an **LLM researcher**, studying how language models learn, represent knowledge, and support useful reasoning.
+I'm **Junaed Ahmed**,  My long-term goal is to become an **LLM researcher**, studying how language models learn, represent knowledge, and support useful reasoning.
 
-I want to connect research with practical engineering by building **AI agents and LLM applications** that use tools, work with relevant context, and produce results that can be evaluated. I'm particularly interested in reliability, data privacy, prompt injection, and secure agent workflows.
+I want to connect research with practical engineering by building **AI agents and LLM applications** that use tools, work with relevant context, and produce results that can be evaluated. I'm particularly interested in reliability, data privacy, prompt injection, and secure agent workflows. Currently Researching Language Model Architecture & Asynchronous Training.
 
 My broader interests include computer vision, human–computer interaction, and blockchain. Alongside AI, I use data analysis and backend development to turn ideas into practical, reproducible projects.
 
@@ -53,12 +53,6 @@ My broader interests include computer vision, human–computer interaction, and 
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 📈 Data Analytics Skills
-
-- **Analysis:** data cleaning, validation, exploratory analysis, joins, aggregation, and visualization.
-- **Business intelligence:** DAX, Power Query, API integration, and dashboard reporting.
-- **Spreadsheets:** PivotTables, PivotCharts, VLOOKUP, HLOOKUP, and VBA.
-- **Python utilities:** `re` for regular expressions and `os` for file and operating system tasks.
 
 ## 🔬 Research Interests
 
