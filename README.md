@@ -67,7 +67,7 @@ My broader interests include computer vision, human–computer interaction, and 
 ## 💭 LLM Quote
 
 <!-- LLM_QUOTE_START -->
-> A fluent answer is a starting point; evidence makes it useful.
+> A useful AI system connects what a model can generate with what a person can verify.
 <!-- LLM_QUOTE_END -->
 
 <sub>Original LLM-themed reflections. The companion workflow selects a new quote each day.</sub>
