@@ -46,6 +46,40 @@
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+## 📈 Data Analytics Skills
+
+**Python for Data Analysis**
+
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-43853D?style=for-the-badge)
+![re and os](https://img.shields.io/badge/re_%26_os-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**R Programming**
+
+![dplyr](https://img.shields.io/badge/dplyr-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-75AADB?style=for-the-badge&logo=r&logoColor=white)
+![ggplot2](https://img.shields.io/badge/ggplot2-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![tm](https://img.shields.io/badge/tm-6A51A3?style=for-the-badge&logo=r&logoColor=white)
+![tidyr](https://img.shields.io/badge/tidyr-75AADB?style=for-the-badge&logo=r&logoColor=white)
+
+**Excel**
+
+![PivotTables and PivotCharts](https://img.shields.io/badge/PivotTables_%26_PivotCharts-217346?style=for-the-badge)
+![VLOOKUP and HLOOKUP](https://img.shields.io/badge/VLOOKUP_%26_HLOOKUP-217346?style=for-the-badge)
+![VBA](https://img.shields.io/badge/VBA-217346?style=for-the-badge)
+
+**Power BI**
+
+![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power_Query-F2C811?style=for-the-badge)
+![API Integration](https://img.shields.io/badge/API_Integration-F2C811?style=for-the-badge)
+
+**SQL & Databases**
+
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
 **Tools**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
