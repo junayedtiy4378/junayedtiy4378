@@ -67,7 +67,7 @@ My broader interests include computer vision, human–computer interaction, and 
 ## ✍️ Random LLM Quote
 
 <!-- LLM_QUOTE_START -->
-![LLM quote: A fluent answer is a starting point; evidence makes it useful.](assets/llm-quote.svg)
+> The next token matters. So do the data, the evaluation, and the people using it.
 <!-- LLM_QUOTE_END -->
 
 ## 📊 GitHub Stats
