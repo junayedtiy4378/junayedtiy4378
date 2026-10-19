@@ -1,0 +1,67 @@
+name: Refresh LLM quote
+
+on:
+  schedule:
+    - cron: '32 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-quote
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Select an original LLM quote
+        run: |
+          python3 - <<'PYTHON'
+          from pathlib import Path
+          import random
+          import re
+
+          quotes = [
+              'A fluent answer is a starting point; evidence makes it useful.',
+              'The next token matters. So do the data, the evaluation, and the people using it.',
+              'Give an agent a goal, give its tools boundaries, and give its results a test.',
+              'Progress in language models comes from asking sharper questions and measuring the answers.',
+              'Reliable agents turn language into actions that can be checked.',
+              'A useful AI system connects what a model can generate with what a person can verify.',
+          ]
+          path = Path('README.md')
+          text = path.read_text(encoding='utf-8')
+          start, end = '<!-- LLM_QUOTE_START -->', '<!-- LLM_QUOTE_END -->'
+          if text.count(start) != 1 or text.count(end) != 1:
+              raise RuntimeError('README must contain exactly one pair of LLM quote markers.')
+          pattern = re.escape(start) + r'\n.*?\n' + re.escape(end)
+          match = re.search(pattern, text, flags=re.DOTALL)
+          if not match:
+              raise RuntimeError('Keep the quote markers on their own lines, in start/end order.')
+          candidates = [quote for quote in quotes if quote not in match.group(0)]
+          quote = random.SystemRandom().choice(candidates)
+          replacement = f'{start}\n> {quote}\n{end}'
+          updated = text[:match.start()] + replacement + text[match.end():]
+          path.write_text(updated, encoding='utf-8')
+          PYTHON
+
+      - name: Commit the updated quote
+        env:
+          QUOTE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'docs: refresh LLM reflection'
+          git pull --rebase origin "$QUOTE_BRANCH"
+          git push origin "HEAD:$QUOTE_BRANCH"
