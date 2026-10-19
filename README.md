@@ -64,13 +64,11 @@ My broader interests include computer vision, human–computer interaction, and 
 
 [Explore my public projects](PUBLIC-PROJECTS.md) · [Visit my portfolio](https://junaed-ahmed.vercel.app)
 
-## 💭 LLM Quote
+## ✍️ Random LLM Quote
 
 <!-- LLM_QUOTE_START -->
-> A useful AI system connects what a model can generate with what a person can verify.
+![LLM quote: A fluent answer is a starting point; evidence makes it useful.](assets/llm-quote.svg)
 <!-- LLM_QUOTE_END -->
-
-<sub>Original LLM-themed reflections. The companion workflow selects a new quote each day.</sub>
 
 ## 📊 GitHub Stats
 
