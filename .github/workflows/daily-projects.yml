@@ -31,6 +31,8 @@ jobs:
           {
             echo '# Public projects'
             echo
+            echo "Last checked (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+            echo
             echo 'Automatically generated from public GitHub repository data. Forks are excluded.'
             echo
             echo '| Project | Primary language | Stars |'
