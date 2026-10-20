@@ -67,7 +67,7 @@ My broader interests include computer vision, human–computer interaction, and 
 ## ✍️ Random LLM Quote
 
 <!-- LLM_QUOTE_START -->
-![LLM quote: Reliable agents turn language into actions that can be checked.](assets/llm-quote.svg)
+![LLM quote: Progress in language models comes from asking sharper questions and measuring the answers.](assets/llm-quote.svg)
 <!-- LLM_QUOTE_END -->
 
 ## 📊 GitHub Stats
