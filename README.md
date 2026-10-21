@@ -67,7 +67,7 @@ My broader interests include computer vision, human–computer interaction, and 
 ## ✍️ Random LLM Quote
 
 <!-- LLM_QUOTE_START -->
-![LLM quote: Progress in language models comes from asking sharper questions and measuring the answers.](assets/llm-quote.svg)
+![LLM quote: A useful AI system connects what a model can generate with what a person can verify.](assets/llm-quote.svg)
 <!-- LLM_QUOTE_END -->
 
 ## 📊 GitHub Stats
