@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196" role="img" aria-labelledby="quote-title quote-desc">
 <title id="quote-title">Original LLM quote</title>
-<desc id="quote-desc">A useful AI system connects what a model can generate with what a person can verify.</desc>
+<desc id="quote-desc">A fluent answer is a starting point; evidence makes it useful.</desc>
 <rect width="900" height="196" rx="16" fill="#0b120b"/>
-<text x="34" y="64" fill="#60bc8c" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-style="italic"><tspan x="34" dy="0">“A useful AI system connects what a model can generate with</tspan><tspan x="34" dy="38">what a person can verify.”</tspan></text>
+<text x="34" y="64" fill="#60bc8c" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-style="italic"><tspan x="34" dy="0">“A fluent answer is a starting point; evidence makes it</tspan><tspan x="34" dy="38">useful.”</tspan></text>
 <text x="866" y="168" text-anchor="end" fill="#bedb00" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-style="italic">— Original LLM reflection</text>
 </svg>
