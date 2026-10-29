@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196" role="img" aria-labelledby="quote-title quote-desc">
 <title id="quote-title">Original LLM quote</title>
-<desc id="quote-desc">Give an agent a goal, give its tools boundaries, and give its results a test.</desc>
+<desc id="quote-desc">Progress in language models comes from asking sharper questions and measuring the answers.</desc>
 <rect width="900" height="196" rx="16" fill="#0b120b"/>
-<text x="34" y="64" fill="#60bc8c" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-style="italic"><tspan x="34" dy="0">“Give an agent a goal, give its tools boundaries, and give</tspan><tspan x="34" dy="38">its results a test.”</tspan></text>
+<text x="34" y="64" fill="#60bc8c" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-style="italic"><tspan x="34" dy="0">“Progress in language models comes from asking sharper</tspan><tspan x="34" dy="38">questions and measuring the answers.”</tspan></text>
 <text x="866" y="168" text-anchor="end" fill="#bedb00" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-style="italic">— Original LLM reflection</text>
 </svg>
