@@ -67,7 +67,7 @@ My broader interests include computer vision, human–computer interaction, and 
 ## ✍️ Random LLM Quote
 
 <!-- LLM_QUOTE_START -->
-![LLM quote: Give an agent a goal, give its tools boundaries, and give its results a test.](assets/llm-quote.svg)
+![LLM quote: Reliable agents turn language into actions that can be checked.](assets/llm-quote.svg)
 <!-- LLM_QUOTE_END -->
 
 ## 📊 GitHub Stats
