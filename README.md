@@ -67,7 +67,7 @@ My broader interests include computer vision, human–computer interaction, and 
 ## ✍️ Random LLM Quote
 
 <!-- LLM_QUOTE_START -->
-![LLM quote: The next token matters. So do the data, the evaluation, and the people using it.](assets/llm-quote.svg)
+![LLM quote: Reliable agents turn language into actions that can be checked.](assets/llm-quote.svg)
 <!-- LLM_QUOTE_END -->
 
 ## 📊 GitHub Stats
